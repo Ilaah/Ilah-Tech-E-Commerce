@@ -1,0 +1,51 @@
+.cardProduct {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.204);
+  border-radius: 10px;
+  width: min(100%, 380px);
+  height: 400px;
+  gap: 10px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.cardProduct__img-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.cardProduct__img {
+  height: 90%;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  object-fit: contain;
+}
+
+.cardProduct__info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cardProduct__btn {
+  align-self: flex-end;
+  width: 35px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+  line-height: 0;
+}
+
+.cardProduct__btn:hover {
+  background-color: var(--secondary-color-hover);
+}
